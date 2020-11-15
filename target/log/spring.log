@@ -1,0 +1,11 @@
+2020-09-23 08:53:02.586  INFO 16684 --- [main] com.tgroup.PdsuElectricityApplication    : Starting PdsuElectricityApplication v0.0.1-SNAPSHOT on yqf-CW65S with PID 16684 (/home/yqf/IdeaProjects/pdsu_electricity/target/psdu_electricity-0.0.1-SNAPSHOT.jar started by yqf in /home/yqf/IdeaProjects/pdsu_electricity/target)
+2020-09-23 08:53:02.591  INFO 16684 --- [main] com.tgroup.PdsuElectricityApplication    : No active profile set, falling back to default profiles: default
+2020-09-23 08:53:04.475  INFO 16684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-09-23 08:53:04.495  INFO 16684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-23 08:53:04.495  INFO 16684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-09-23 08:53:04.593  INFO 16684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-23 08:53:04.594  INFO 16684 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1932 ms
+2020-09-23 08:53:05.592  WARN 16684 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-09-23 08:53:05.667  INFO 16684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-09-23 08:53:05.681  INFO 16684 --- [main] com.tgroup.PdsuElectricityApplication    : Started PdsuElectricityApplication in 3.782 seconds (JVM running for 4.293)
+2020-09-23 08:53:12.322  INFO 16684 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...

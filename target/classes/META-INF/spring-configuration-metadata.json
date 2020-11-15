@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.tgroup.domain.FileProperties",
+      "sourceType": "com.tgroup.domain.FileProperties"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.tgroup.config.DataSourceConfig",
+      "sourceMethod": "druid()"
+    },
+    {
+      "name": "sql",
+      "type": "com.tgroup.domain.MysqlConfig",
+      "sourceType": "com.tgroup.domain.MysqlConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.tgroup.domain.FileProperties"
+    },
+    {
+      "name": "sql.data-base",
+      "type": "java.lang.String",
+      "sourceType": "com.tgroup.domain.MysqlConfig"
+    },
+    {
+      "name": "sql.host",
+      "type": "java.lang.String",
+      "sourceType": "com.tgroup.domain.MysqlConfig"
+    },
+    {
+      "name": "sql.password",
+      "type": "java.lang.String",
+      "sourceType": "com.tgroup.domain.MysqlConfig"
+    },
+    {
+      "name": "sql.username",
+      "type": "java.lang.String",
+      "sourceType": "com.tgroup.domain.MysqlConfig"
+    }
+  ],
+  "hints": []
+}
